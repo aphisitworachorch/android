@@ -518,5 +518,11 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-5.1" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-5.1" />
-
+  <project path="device/sony/huashan" name="aphisitworachorch/android_device_sony_huashan" remote="github" revision="omni-lollipop" />
+  <project name="AOSPA-Legacy/android_device_sony_msm8960-common" path="device/sony/msm8960-common" remote="github" revision="lollipop" />
+  <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-12.1" />
+  <project path="device/sony/qcom-common" name="CyangoenMod/android_device_sony_qcom-common" remote="github" revision="cm-12.1" />
+  <project path="kernel/sony/msm8x60" name="aphisitworachorch/android_kernel_sony_msm8960t" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-12.1" />
+  <project name="VanirAOSP/vendor_sony" path="vendor/sony" remote="github" revision="L51" />
 </manifest>
